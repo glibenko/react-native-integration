@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+require_relative '../web/node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+target 'naitive-ios' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'react-native-slider', :path => "../web/node_modules/@react-native-community/slider"
+  pod 'FBLazyVector', :path => "../web/node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "../web/node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "../web/node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "../web/node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '../web/node_modules/react-native/'
+  pod 'React-Core', :path => '../web/node_modules/react-native/'
+  pod 'React-CoreModules', :path => '../web/node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '../web/node_modules/react-native/'
+  pod 'React-RCTActionSheet', :path => '../web/node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '../web/node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '../web/node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '../web/node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '../web/node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '../web/node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '../web/node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '../web/node_modules/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path => '../web/node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '../web/node_modules/react-native/'
+
+  pod 'React-cxxreact', :path => '../web/node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '../web/node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '../web/node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '../web/node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path => "../web/node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "../web/node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '../web/node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec => '../web/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../web/node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../web/node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+
+end
