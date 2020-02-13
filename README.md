@@ -13,9 +13,11 @@ $ cd web
 # install dependencies
 $ npm install
 
-# create bundle for ios
-$ npm run build:ios
+# here we can develop our react-native
+```
 
+### build our app for iOS
+```sh
 # create bundle for ios
 $ npm run build:ios
 
@@ -25,8 +27,22 @@ $ cd ../native-ios
 # install pods 
 $ pod install
 
-# open your native-ios project
-# main.jsbundle inside
+# open your native-ios project in Xcode
+# build project
+```
+
+### build for Android
+```sh
+# create bundle for android
+$ npm run build:android
+
+# go to native-android
+$ cd ../native-android
+
+# install pods 
+$ pod install
+
+# open your native-ios project in Android Studio
 # build project
 ```
 

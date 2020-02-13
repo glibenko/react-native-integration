@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name='native-android'
+
+include ':react-native-slider'
+project(':react-native-slider').projectDir = new File('/Users/sergei/Desktop/dev/RN/web/node_modules/@react-native-community/slider/android')

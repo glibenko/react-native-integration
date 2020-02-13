@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         )
         let viewController = UIViewController()
         viewController.view = rootView
+        viewController.modalPresentationStyle = .fullScreen
         self.present(viewController, animated: true, completion: nil)
     }
 }
